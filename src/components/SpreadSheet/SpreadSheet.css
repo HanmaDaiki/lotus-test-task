@@ -1,0 +1,29 @@
+.spread-sheet {
+  margin-top: 100px;
+  display: flex;
+}
+
+.spread-sheet__row {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  max-width: 505px;
+  height: 50px;
+}
+
+.spread-sheet__row:nth-child(odd) {
+  background-color: #a3a3a3;
+}
+
+.spread-sheet__row.spread-sheet__row_header {
+  justify-content: right;
+  background-color: rgba(0,0,0,0%);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.spread-sheet__row.spread-sheet__row_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
